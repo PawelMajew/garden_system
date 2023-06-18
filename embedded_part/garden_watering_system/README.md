@@ -21,7 +21,7 @@
 * Filling in the details of the wifi network in the settings.
 
 ## Connection of modules
-* Connect the peripherals as shown in the picture "electrical_diagram".
+* Connect the peripherals as shown in the Raport_sensory.
 * Connect board with a USB cable to the computer.
 
 ## Build and flash
