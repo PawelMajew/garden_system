@@ -25,19 +25,19 @@ Macros
 **********************************************************************/
 
 /* Time when we are not irrigating. */
-#define NORMAL_MEASURMENT_TIME 1000 //* 60 * 60 / 2
+#define NORMAL_MEASURMENT_TIME 1000 * 60 * 60 / 2
 /* Time when we are irrigating. */
-#define WATERING_MEASURMENT_TIME 1000 //TIME_WATERING_1 + TIME_PAUSE_1 + TIME_WATERING_2 + TIME_PAUSE_2
+#define WATERING_MEASURMENT_TIME TIME_WATERING_1 + TIME_PAUSE_1 + TIME_WATERING_2 + TIME_PAUSE_2
 /* Time when we are irrigating manual. */
-#define MANUAL_WATERING_MEASURMENT_TIME 1000 //* 60 
+#define MANUAL_WATERING_MEASURMENT_TIME 1000 * 60 
 /* How often data will be downloaded from the site. */
 #define GET_DELAY 1000
 
 /* Watering sequence times. */
-#define TIME_WATERING_1 1000 //* 60 * 2
-#define TIME_PAUSE_1 1000 //* 60 * 10
-#define TIME_WATERING_2 1000 //* 60 * 1
-#define TIME_PAUSE_2 1000 //* 60 * 5
+#define TIME_WATERING_1 1000 * 60 * 2
+#define TIME_PAUSE_1 1000 * 60 * 10
+#define TIME_WATERING_2 1000 * 60 * 1
+#define TIME_PAUSE_2 1000 * 60 * 5
 
 #define TRUE 1
 #define FALSE 0
