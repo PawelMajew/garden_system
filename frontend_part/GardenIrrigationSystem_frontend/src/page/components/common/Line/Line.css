@@ -1,0 +1,5 @@
+/* Linia rozdzielajaca sekcje */
+.line {
+  background-color: var(--lochinvar);
+  margin: 10px 0;
+}

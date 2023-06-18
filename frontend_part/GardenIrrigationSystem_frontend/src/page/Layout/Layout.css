@@ -1,0 +1,45 @@
+@import url("https://fonts.googleapis.com/css?family=Inter:500,400,600");
+
+@import url("../../styleguide.css");
+
+.screen a {
+  display: contents;
+  text-decoration: none;
+}
+
+.container-center-horizontal {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.container-center-horizontal > * {
+  flex-shrink: 0;
+  pointer-events: auto;
+}
+
+.desktop-1 {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  display: flex;
+  flex-direction: column;
+  height: 1024px;
+  max-width: 1440px;
+  margin: 0 auto;
+  width: 1440px;
+}
+
+.flex-col {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-top: -1px;
+  width: 1440px;
+}
+
+.overlap-group1 {
+  height: 81px;
+  position: relative;
+  width: 1440px;
+}

@@ -1,0 +1,976 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:28] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:29] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:29] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:29] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:29] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:30] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:30] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:32] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:32] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:32] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:33] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:46] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:46] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:46] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:47] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:47] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:47] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:47] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:47] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:47] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:47] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:47] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:48] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:51] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:51] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:53] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:54] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:54] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:54] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:55] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:55] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:55] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:56] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:57] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:57] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:57] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:58] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:58] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:58] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:58] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:23:59] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:24:01] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:24:01] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:24:01] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:24:02] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:24:02] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:24:02] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:25:02] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:25:03] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:25:04] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:25:04] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:25:06] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:25:06] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:25:11] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:25:11] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:03] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:03] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:04] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:04] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:05] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:05] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:07] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:07] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:12] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:26:12] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:27:12] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:27:13] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:27:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:27:14] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:27:16] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:27:16] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:27:21] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:27:21] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:28:21] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:28:22] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:28:23] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:28:23] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:28:25] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:28:26] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:28:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:28:30] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:29:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:29:31] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:29:32] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:29:32] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:29:34] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:29:34] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:29:38] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:29:39] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:30:39] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:30:39] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:30:41] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:30:41] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:30:43] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:30:43] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:30:47] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:30:48] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:31:48] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:31:48] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:31:49] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:31:50] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:31:52] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:31:52] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:31:56] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:31:57] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:32:57] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:32:57] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:32:58] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:32:59] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:35:46] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:35:46] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:35:46] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:35:47] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:35:51] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:35:51] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:36:05] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:36:05] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:36:05] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:36:05] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:36:06] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:36:06] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:40:31] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:40:31] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:40:31] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:40:31] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:40:36] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:40:36] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:47] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:48] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:48] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:48] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:49] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:49] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:49] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:49] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:52] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:52] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:56] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:42:56] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:22] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:22] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:22] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:22] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:23] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:23] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:25] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:26] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:26] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:27] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:44:30] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:45:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:45:31] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:45:32] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:45:32] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:45:34] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:45:34] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:45:38] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:45:39] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:51:58] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:51:58] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:51:58] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:51:58] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:51:59] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:51:59] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:01] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:02] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:06] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:06] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:48] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:48] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:48] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:48] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:48] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:48] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:49] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:50] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:50] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:50] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:50] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:50] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:54] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:52:55] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:02] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:03] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:03] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:03] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:04] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:04] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:06] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:06] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:10] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:11] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:12] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:13] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:13] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:13] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:14] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:16] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:16] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:17] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:17] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:20] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:21] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:21] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:21] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:29] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:29] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:29] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:30] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:34] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:34] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:34] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:35] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:37] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:37] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:41] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:42] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:55] "OPTIONS /threshold HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:55] "POST /threshold HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:59] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:59] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:53:59] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:00] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:02] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:03] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:03] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:03] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:05] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:05] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:05] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:05] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:06] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:06] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:06] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:06] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:08] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:08] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:09] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:09] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:16] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:16] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:16] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:17] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:20] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:20] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:20] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:20] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:25] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:25] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:26] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:54:26] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:23] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:23] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:23] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:24] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:24] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:24] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:24] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:24] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:25] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:25] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:36] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:36] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:36] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:36] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:36] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:37] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:37] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:37] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:44] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:44] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:44] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:45] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:57] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:57] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:57] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:58] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:58] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:55:59] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:05] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:06] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:06] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:06] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:06] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:06] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:07] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:07] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:08] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:08] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:08] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:08] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:09] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:09] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:12] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:13] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:13] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:13] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:13] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:13] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:14] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:16] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:17] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:17] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:56:17] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:57:17] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:57:17] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:58:17] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:58:18] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:59:18] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 19:59:18] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:00:18] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:00:19] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:01:19] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:01:19] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:02:19] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:02:20] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:03:20] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:03:20] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:04:20] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:04:21] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:05:21] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:05:21] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:06:21] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:06:21] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:07:21] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:07:22] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:08:22] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:08:22] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:09] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:11] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:12] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:12] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:12] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:15] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:15] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:15] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:15] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:18] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:19] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:19] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:36] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:09:41] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:10:03] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:10:03] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:10:03] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:10:04] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:10:07] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:10:12] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:10:16] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:10:19] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:11:41] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:11:45] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:12:00] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:12:03] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:12:06] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:07] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:21] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:23] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:27] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:27] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:27] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:27] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:28] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:28] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:28] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:28] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:29] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:29] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:29] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:29] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:29] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:29] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:29] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:29] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:40] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:40] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:40] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:40] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:46] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:47] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:47] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:47] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:50] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:50] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:50] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:50] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:51] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:51] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:51] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:52] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:52] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:52] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:52] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:52] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:53] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:54] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:55] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:55] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:55] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:55] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:56] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:57] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:59] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:13:59] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:00] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:00] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:03] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:03] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:46] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:46] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:46] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:46] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:47] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:47] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:47] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:48] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:48] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:48] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:48] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:48] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:52] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:14:53] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:13] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:15] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:24] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:25] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:25] "[31m[1mGET /mainview HTTP/1.1[0m" 400 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:25] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:26] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:26] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:26] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:26] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:26] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:26] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:39] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:43] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:46] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:58] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:59] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:59] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:15:59] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:44] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:48] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:50] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:50] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:51] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:51] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:51] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:51] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:51] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:51] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:53] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:53] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:54] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:54] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:55] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:55] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:55] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:16:56] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:17:02] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:17:03] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:17:03] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:17:03] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:18:03] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:18:04] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:19:04] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:19:04] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:20:04] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:20:05] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:21:05] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:21:05] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:22:05] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:22:05] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:23:46] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:23:46] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:23:46] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:23:46] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:40:10] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:40:10] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:40:11] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:40:11] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:05] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:06] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:06] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:06] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:15] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:15] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:16] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:16] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:20] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:20] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:20] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:41:21] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:45:38] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:45:38] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:45:38] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:45:39] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:46:39] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:46:39] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:47:39] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:47:39] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:48:39] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:48:40] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:49:40] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:49:40] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:50:40] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:50:41] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:51:41] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 20:51:41] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:17] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:17] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:17] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:18] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:18] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:18] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:18] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:19] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:19] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:19] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:19] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:32] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:32] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:33] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:33] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:33] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:34] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:34] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:34] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:34] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:34] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:34] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:34] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:35] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:35] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:38] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:38] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:38] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:38] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:38] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:12:38] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:28] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:28] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:29] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:29] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:31] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:32] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:32] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:32] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:32] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:32] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:32] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:33] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:34] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:36] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:36] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:40] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:41] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:41] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:13:41] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:14:24] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:14:50] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:14:57] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:02] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:05] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:05] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:06] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:06] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:06] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:06] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:06] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:07] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:07] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:07] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:08] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:09] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:09] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:10] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:10] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:10] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:10] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:10] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:11] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:11] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:11] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:11] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:11] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:11] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:15:11] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:16:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:16:30] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:16:31] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 21:16:31] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:11:23] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:11:23] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:11:24] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:11:24] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:12:24] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:12:24] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:13:25] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:13:25] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:14:25] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:14:26] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:15:26] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:15:26] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:16:26] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:16:26] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:17:26] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:17:27] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:18:27] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:18:27] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:19:27] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:19:28] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:20:28] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:20:28] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:21:28] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:21:29] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:22:29] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:22:29] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:23:29] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:23:29] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:24:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 22:24:30] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 23:20:19] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 23:20:19] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 23:20:19] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 23:20:20] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 23:20:30] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 23:20:30] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 23:20:30] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [14/Jun/2023 23:20:30] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:34:21] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:34:21] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:34:21] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:03] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:03] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:04] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:04] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:04] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:04] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:04] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:04] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:06] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:06] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:06] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:06] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:06] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:06] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:06] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:07] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:07] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:07] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:07] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:07] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:07] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:07] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:20] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:20] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:20] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:20] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:20] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:20] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:24] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:24] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:26] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:27] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:27] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:27] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:27] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:27] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:27] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:28] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:30] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:31] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:35] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:36] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:44] "OPTIONS /threshold HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:45] "POST /threshold HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:48] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:49] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:50] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:57] "OPTIONS /threshold HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:35:58] "POST /threshold HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:00] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:00] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:00] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:00] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:00] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:00] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:00] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:01] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:01] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:01] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:07] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:07] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:07] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:36:07] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:12] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:12] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:14] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:14] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:15] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:15] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:16] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:16] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:16] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:16] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:16] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:17] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:17] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:19] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:20] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:24] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:24] "[35m[1mGET /mainview HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:24] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:24] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:38] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:44] "[35m[1mPOST /mainview HTTP/1.1[0m" 201 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:59] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:37:59] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:00] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:00] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:00] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:00] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:00] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:00] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:00] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:00] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:01] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:01] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:01] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:01] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:06] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:06] "POST /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:09] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:09] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:09] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:09] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:09] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:09] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:09] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:10] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:10] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:38:10] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:39:10] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:39:10] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:40:10] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:40:11] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:41:11] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:41:11] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:42:11] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:42:11] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:43:13] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:43:13] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:44:13] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:44:13] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:45:13] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:45:14] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:46:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:46:14] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:47:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:47:14] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:48:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:48:15] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:49:15] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:49:15] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:50:15] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:50:15] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:51:15] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:51:16] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:52:16] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:52:16] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:53:16] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:53:16] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:54:16] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:54:17] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:55:17] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:55:17] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:56:17] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:56:17] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:57:18] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:57:18] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:58:18] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:58:18] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:59:18] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 17:59:18] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 18:00:19] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 18:00:19] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 18:01:19] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [15/Jun/2023 18:01:19] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:45:46] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:45:46] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:45:46] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:14] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:14] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:14] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:16] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:17] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:17] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:39] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:39] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:40] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:40] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:46] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:46] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:46] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:46] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:51] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:51] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:51] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [17/Jun/2023 15:46:51] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:01] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:01] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:01] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.175:5000
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with stat
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 598-195-288
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:28] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:28] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:34] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:34] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:34] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:34] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:34] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "OPTIONS /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "OPTIONS /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "GET /mode HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "GET /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "POST /sprinkler HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:37] "OPTIONS /mainview HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [18/Jun/2023 20:41:38] "GET /mainview HTTP/1.1" 200 -

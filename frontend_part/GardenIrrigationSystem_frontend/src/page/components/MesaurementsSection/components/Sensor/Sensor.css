@@ -1,0 +1,26 @@
+/* Zdefiniowanie wygladu elementow dotyczacych wyswietlania wartosci na czujnikach */
+.sensor-output {
+  width: 70px;
+  height: 50px;
+  background-color: var(--alto);
+  border: 2px solid;
+  border-color: var(--cyprus);
+  margin-left: 5px;
+  margin-bottom: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.sensor-text {
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+  margin-right: 5px;
+}
+
+.sensor-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

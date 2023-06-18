@@ -1,0 +1,20 @@
+/* Prostokat bedacy tlem dla tytulu strony */
+.rectangle-1 {
+  height: 80px;
+  background-color: var(--lochinvar);
+  width: 1440px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Styl napisu tytulowego strony */
+.title {
+  color: var(--white);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xxxl);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  text-align: center;
+}

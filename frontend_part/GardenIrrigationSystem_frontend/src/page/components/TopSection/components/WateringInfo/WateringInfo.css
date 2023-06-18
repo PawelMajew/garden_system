@@ -1,0 +1,9 @@
+/* Styl bloku z wiadomoscia o trwaniu podlewania */
+.sprinkler-message-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color: gainsboro;
+}

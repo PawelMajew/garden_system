@@ -1,0 +1,44 @@
+/* Przygotowanie styli do dalszego uzycia */
+:root {
+  --black: rgba(0, 0, 0, 1);
+  --cyprus: rgba(0, 65, 54, 1);
+  --lochinvar: rgba(52, 149, 132, 1);
+  --granite-gray: rgba(110, 104, 104, 1);
+  --alto: rgba(217, 217, 217, 1);
+  --rose-white: rgba(255, 247, 247, 1);
+  --white: rgba(255, 255, 255, 1);
+  --light-sky-blue: rgba(135, 206, 250, 1);
+  --deep-sky-blue: rgba(0, 191, 255, 1);
+
+  --font-size-m: 24px;
+  --font-size-l: 32px;
+  --font-size-xl: 40px;
+  --font-size-xxl: 48px;
+  --font-size-xxxl: 64px;
+
+  --font-family-inter: "Inter";
+}
+
+.inter-semi-bold-lochinvar-32px {
+  color: var(--lochinvar);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-l);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-semi-bold-black-40px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-xl);
+  font-weight: 600;
+  font-style: normal;
+}
+
+.inter-medium-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-inter);
+  font-size: var(--font-size-m);
+  font-weight: 500;
+  font-style: normal;
+}

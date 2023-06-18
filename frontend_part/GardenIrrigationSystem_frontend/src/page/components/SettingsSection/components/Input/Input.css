@@ -1,0 +1,18 @@
+/* Pole do wprowadzania wartosci */
+.myinput[type="text"] {
+  width: 10%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  margin-right: 20px;
+}
+
+/* Etykieta pola */
+.input-label {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 58px;
+  min-width: 335px;
+  text-align: center;
+  margin-bottom: 10px;
+}
